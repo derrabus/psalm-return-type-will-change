@@ -1,0 +1,27 @@
+{
+    "name": "derrabus/psalm-return-type-will-change",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander M. Turek",
+            "email": "me@derrabus.de"
+        }
+    ],
+    "require": {
+        "php": ">= 8"
+    },
+    "require-dev": {
+        "vimeo/psalm": "4.12.0"
+    },
+    "config": {
+        "platform": {
+            "php": "8.0.12"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Rabus\\PsalmReturnTypeWillChange\\": "src/"
+        }
+    }
+}
